@@ -18,7 +18,7 @@ var app = angular.module("myApp",["fileDropDirective"]);
 
 
 
-where file-drop is the directive 
+ <file-drop fetch-files="getFiles"></file-drop>  where file-drop is the directive 
 fetch-files allows to get list of files and pass that to getFiles function
 
 # In Controller :
