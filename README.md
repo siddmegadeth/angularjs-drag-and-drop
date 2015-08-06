@@ -31,3 +31,9 @@ files are always added and would refresh on page load.
 this is to esnure to keep track of files dropped.
 
 
+To Style the Drop box . use this class
+.drop_zone
+
+You can customize this .drop_zone class from your css files
+
+
