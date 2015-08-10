@@ -2,7 +2,7 @@
 
 
 var fileDrop = angular.module("fileDropDirective",["ngRoute"]);
-
+var log = console.log.bind(console);
 
 fileDrop.directive('fileDrop', [function () {
 
@@ -55,13 +55,12 @@ var collectionFiles = [];
 
 			}
 			element.bind("dragover", handleDragOver);
-	        element.bind("dragleave", onDragEnd)
-            element.bind("drop",handleFileSelect);
+	    element.bind("dragleave", onDragEnd)
+      element.bind("drop",handleFileSelect);
 			
 		}
 	};
 }]);
-
 
 /*
 Usage
@@ -69,19 +68,10 @@ HTML
 
 <file-drop fetch-files="getFiles"></file-drop>
 
-In Controller
+In Conroller
 
- $scope.getFiles = function(res)
-	 {
-	 
-	 	this.fileList =res;
-	 	console.log(res);
-	 }
 
 
 
 
 */
-
-
-
