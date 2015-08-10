@@ -10,7 +10,8 @@ Add fileDropDirective in your angular module/app Init as a dependency
 
 var app = angular.module("myApp",["fileDropDirective"]);
 
-
+DEMO :
+On Plunkr http://plnkr.co/edit/FLnjTG?p=info
 
 In HTML
 <file-drop fetch-files="getFiles"></file-drop>
